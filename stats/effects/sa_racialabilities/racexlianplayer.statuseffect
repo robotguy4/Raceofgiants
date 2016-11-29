@@ -1,0 +1,11 @@
+{
+  "name" : "racexlianplayer",
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : ["racexlianplayer.lua"],
+	
+	"label" : "Giant Body inv",
+	"icon" : "/interface/statuses/invisible.png"
+
+}

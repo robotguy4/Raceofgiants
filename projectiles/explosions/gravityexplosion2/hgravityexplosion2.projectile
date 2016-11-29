@@ -1,0 +1,30 @@
+{
+  "projectileName" : "hgravityexplosion2",
+  "image" : "hgravityexplosion2.png",
+  "animationCycle" : 0.7,
+  "animationLoops" : false,
+  "physics" : "illusion",
+  "frameNumber" : 6,
+  "pointLight" : false,
+  "speed" : 0,
+  "power" : 0.0,
+
+  "bounces" : -1,
+
+  "timeToLive" : 0.7,
+
+  "orientationLocked" : true,
+
+  "physicsForces" : {
+    "vacuum" : {
+      "type" : "RadialForceRegion",
+      "outerRadius" : 10,
+      "innerRadius" : 4,
+      "baseTargetRadialVelocity" : -50,
+      "controlForce" : 10,
+      "categoryWhitelist" : ["itemdrop"]
+    }
+  },
+
+  "clientEntityMode" : "ClientSlaveOnly"
+}

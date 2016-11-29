@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/xlian",
+		"value" : {
+			"aiFrames" : "xlianAI.png",
+			"portraitFrames" : "portraits/xlianportrait.png",
+			"staticFrames" : "staticxlian.png"	
+		}
+	}
+]

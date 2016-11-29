@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/xlian",
+		"value": [
+			"xlianhelper","protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/xlian",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

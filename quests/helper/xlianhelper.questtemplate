@@ -1,0 +1,24 @@
+{
+  "id" : "xlianhelper",
+  "mainQuest" : false,
+  "title" : "xlianhelper",
+  "text" : "You shouldn't be able to see this",
+  "completionText" : "Something went wrong here. This should be unsolvable.",
+  "moneyRange" : [0, 0],
+  "canBeAbandoned" : false,
+  "invisible" : true,
+  "logOnly" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/helper/xlianhelper.lua",
+  "scriptConfig" : {
+
+    "descriptions" : {
+      "graduate" : "Attend your graduation ceremony",
+      "matterManipulator" : "Take the matter manipulator",
+      "escape" : "Escape the destruction"
+    },
+
+    "followUp" : "protectorate"
+  }
+}

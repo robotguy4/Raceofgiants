@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/xlian",
+		"value" : [
+		    "/ships/xlian/xlianT0.structure",
+			"/ships/xlian/xlianT1.structure",
+			"/ships/xlian/xlianT2.structure",
+			"/ships/xlian/xlianT3.structure",
+			"/ships/xlian/xlianT4.structure",
+			"/ships/xlian/xlianT5.structure",
+			"/ships/xlian/xlianT6.structure",
+			"/ships/xlian/xlianT7.structure",
+			"/ships/xlian/xlianT8.structure"
+		]
+	}
+]

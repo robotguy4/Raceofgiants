@@ -1,0 +1,8 @@
+{
+	"name" : "xlbio",
+	"defaultDuration" : 5,
+	"scripts" : [ "xlbio.lua" ],
+	
+	"label" : "Giant Body",
+	"icon" : "/interface/statuses/invisible.png"
+}

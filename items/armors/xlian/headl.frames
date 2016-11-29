@@ -1,0 +1,7 @@
+{
+  "image" : "head.png",
+  "frameList" : {
+    "normal" : [86, 0,   172,  86],
+    "climb" :  [86, 344, 172, 430]
+  }
+}

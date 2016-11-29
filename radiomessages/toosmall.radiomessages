@@ -1,0 +1,6 @@
+{
+  "toosmall" : {
+    "unique" : false,
+    "text" : "You can't put that on, it's too small."
+  }
+}

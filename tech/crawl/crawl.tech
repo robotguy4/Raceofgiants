@@ -1,0 +1,53 @@
+{
+  "name" : "crawl",
+  "type" : "body",
+
+  "scripts" : ["crawl.lua"],
+  "animator" : "crawl.animation",
+
+  "description" : "Allows crawling",
+  "shortDescription" : "Crawl",
+  "rarity" : "Uncommon",
+  "icon" : "/tech/crawl.png",
+
+  "chipCost" : 2,
+
+  "maximumDoubleTapTime" : 0.25,
+  "crawlControlForce" : 2000,
+  "crawlSpeed" : 9,
+  "energyCost" : 0,
+  "crawlDuration" : 0.15,
+  "crawlCooldown" : 0.8,
+  "stopAfterDash" : true,
+  "groundOnly" : true,
+  "crawlRadius" : 1,
+  "ballFrames" : 8,
+
+  "animationParts" : {
+    "ballGlow" : "distortionsphereglow.png",
+    "ball" : "distortionsphere.png"
+  },
+ "transMovementParameters" : {
+    "collisionPoly" : [ [-1.50, -4.0], [-0.70, -5.0], [0.70, -5.0], [1.50, -4.0], [1.50, 1.30], [0.70, 2.44], [-0.70, 2.44], [-1.50, 1.3] ],
+
+    "groundForce" : 450.0,
+    "normalGroundFriction" : 1.5,
+    "ambulatingGroundFriction" : 0.2,
+    "slopeSlidingFactor" : 0,
+
+    "airJumpProfile" : {
+      "jumpSpeed" : 16,
+      "jumpControlForce" : 800.0,
+      "jumpInitialPercentage" : 1.0,
+      "jumpHoldTime" : 0.1
+    },
+
+    "liquidJumpProfile" : {
+      "jumpSpeed" : 0.0,
+      "jumpControlForce" : 0.0,
+
+      "multiJump" : false,
+      "autoJump" : false
+    }
+  }
+}

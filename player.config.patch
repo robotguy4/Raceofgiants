@@ -1,0 +1,6 @@
+[
+{ "op" : "add", "path" : "/defaultCodexes/xlian", "value" : [ "protectorate1", "protectorate2", "xliandiary" ] },
+{ "op" : "add", "path" : "/defaultCodexes/cyclops", "value" : [ "protectorate1", "protectorate2", "xliandiary" ] }
+
+
+]
